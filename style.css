@@ -90,4 +90,35 @@ p {
     margin-right: 10px;
     margin-left: 30px;
 }
+span{
+    margin-right: 50px;
+}
+#cardsection{
+    padding-top:60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    float: left;
+}
 
+.card{
+    background-color: white;
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    padding: 13px;
+}
+.card img{
+    width: 95%;
+    height: auto;
+    align-content: center;
+    display: block;
+}
+.cardhead{
+    margin-top: 18px;
+}
+.cardtxt{
+    font-size: 15px;
+    margin-top: 15px;
+}
