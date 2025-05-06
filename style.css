@@ -94,7 +94,7 @@ span{
     margin-right: 50px;
 }
 #cardsection{
-    padding-top:60px;
+    padding: 60px 0;
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     row-gap: 30px;
