@@ -138,7 +138,15 @@ span{
 }
 .pagination a:active{
     color: #FF7575;
+    border-top: solid #FF7575;
+    border-radius: 0;
 }
+.pagination a.active{
+    color: #FF7575;
+    border-top: solid #FF7575;
+    border-radius: 0;
+}
+
 footer {
     padding: 40px 20px;
     text-align: center;
@@ -152,6 +160,7 @@ footer {
     align-items: center;
     color: white;
 }
+
 
 .brand {
     font-weight: 500;
