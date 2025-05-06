@@ -87,19 +87,16 @@ p {
     float: left;
 }
 .icons img{
-    margin-right: 10px;
-    margin-left: 30px;
+    padding-right: 8px;
 }
 span{
-    margin-right: 50px;
+    margin-right: 55px;
 }
 #cardsection{
     padding: 60px 0;
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     row-gap: 30px;
-    column-gap: 30px;
-    float: left;
 }
 
 .card{
@@ -122,3 +119,77 @@ span{
     font-size: 15px;
     margin-top: 15px;
 }
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+
+}
+.pagination a {
+    color: #909090;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    color: #FF7575;
+}
+.pagination a:active{
+    color: #FF7575;
+}
+footer {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.brand {
+    font-weight: 500;
+}
+
+.brand .blue {
+    color: white;
+    background-color: #4699E0;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+.social a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    background-color: #4699E0;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.social a:hover {
+    opacity: 0.8;
+}
+
+.fa-twitter {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
